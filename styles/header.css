@@ -1,0 +1,120 @@
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(63, 114, 255);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    z-index: 100;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-search-box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.header-search-box img {
+    width: 24px;
+}
+
+.header-search-box input {
+    font-size: 14px;
+    outline: none;
+    border: none;
+    padding: 10px 20px 10px 5px;
+    background-color: transparent;
+    font-family: poppins;
+}
+
+.middle-section {
+    display: flex;
+    margin-right: 100px;
+}
+
+.middle-section-icon-linkbox {
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-section-icon-linkbox:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.right-section-icon-link:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.right-section-icon-link .icon-link {
+    height: 24px;
+}
+
+.header-profile-pix {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 3px;
+    background: linear-gradient(transparent);
+    border: 2px solid white;
+}
+
+.profile-pix-box {
+    position: relative;
+    margin-top: 6px;
+}
+
+.online {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    border: 2px white solid;
+    border-radius: 50%;
+    top: 0;
+    right: 5px;
+}
